@@ -1,4 +1,4 @@
-TOKEN = "eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwMjUwNDE3djEiLCJ0eXAiOiJKV1QifQ.eyJlbnQiOjEsImV4cCI6MTc2MTg5MzI5MywiaWQiOiIwMTk2OGQyZC04NjI0LTcxNGEtOTQ2OC1mODNkZDY1MDJiNmYiLCJpaWQiOjY0OTU3NDM1LCJvaWQiOjEzNDkyNzEsInMiOjAsInNpZCI6ImUxY2QzMmU4LWQwYTYtNDFiOC04MzkyLTQ0OGEzOTk3ODVjMiIsInQiOnRydWUsInVpZCI6NjQ5NTc0MzV9.AlVassO3PuDQtV7A-OrZitAN0chGrqonW_DIlux0D3ral4neInndIkX-Id_MAO2AHfpkwta97dRRAyg0a-82DA"
+TOKEN = "your_token"
 HEADERS = {"Authorization": TOKEN, "Content-Type": "application/json"}
 CACHE_TIME = 300
 CHECK_CONNECTION_URL = "https://content-api-sandbox.wildberries.ru/ping"
