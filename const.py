@@ -1,0 +1,12 @@
+TOKEN = "eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwMjUwNDE3djEiLCJ0eXAiOiJKV1QifQ.eyJlbnQiOjEsImV4cCI6MTc2MTg5MzI5MywiaWQiOiIwMTk2OGQyZC04NjI0LTcxNGEtOTQ2OC1mODNkZDY1MDJiNmYiLCJpaWQiOjY0OTU3NDM1LCJvaWQiOjEzNDkyNzEsInMiOjAsInNpZCI6ImUxY2QzMmU4LWQwYTYtNDFiOC04MzkyLTQ0OGEzOTk3ODVjMiIsInQiOnRydWUsInVpZCI6NjQ5NTc0MzV9.AlVassO3PuDQtV7A-OrZitAN0chGrqonW_DIlux0D3ral4neInndIkX-Id_MAO2AHfpkwta97dRRAyg0a-82DA"
+HEADERS = {"Authorization": TOKEN, "Content-Type": "application/json"}
+CACHE_TIME = 300
+CHECK_CONNECTION_URL = "https://content-api-sandbox.wildberries.ru/ping"
+CARDS_URL = "https://content-api-sandbox.wildberries.ru/content/v2/get/cards/list"
+PRICES_URL = "https://discounts-prices-api-sandbox.wildberries.ru/api/v2/list/goods/filter"
+WAREHOUSES_URL = "https://marketplace-api.wildberries.ru/api/v3/offices"
+FBS_URL = "https://marketplace-api.wildberries.ru/api/v3/orders/new"
+DBS_URL = "https://marketplace-api.wildberries.ru/api/v3/dbs/orders/new"
+SELF_PICK_UP_URL = "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/new"
+CATEGORIES_URL = "https://content-api-sandbox.wildberries.ru/content/v2/object/parent/all"
+COMISSION_URL = "https://common-api.wildberries.ru/api/v1/tariffs/commission"
